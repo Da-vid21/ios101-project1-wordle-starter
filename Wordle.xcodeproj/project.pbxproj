@@ -54,7 +54,7 @@
 		996B84A9299990A900133037 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		996B84AB299990A900133037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		996B84AE299990A900133037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		996B84B0299990AA00133037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		996B84B0299990AA00133037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = DO_NOT_MODIFY/Assets.xcassets; sourceTree = "<group>"; };
 		996B84B3299990AA00133037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		996B84B5299990AA00133037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		996B84BA299990AA00133037 /* WordleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,8 +122,10 @@
 				996B84D7299994A300133037 /* LetterCell.swift */,
 				9953C05429A40AC700247C5B /* BoardController.swift */,
 				9953C05629A422C200247C5B /* WordGenerator.swift */,
+				996B84B0299990AA00133037 /* Assets.xcassets */,
 				991CEC0529999E2A0095F025 /* KeyboardCell.swift */,
 				991CEC0729999ECD0095F025 /* KeyboardController.swift */,
+				996B84B2299990AA00133037 /* LaunchScreen.storyboard */,
 				996B84B5299990AA00133037 /* Info.plist */,
 				99CF2AA429B0156100B4973F /* DO_NOT_MODIFY */,
 			);
@@ -150,8 +152,6 @@
 		99CF2AA429B0156100B4973F /* DO_NOT_MODIFY */ = {
 			isa = PBXGroup;
 			children = (
-				996B84B2299990AA00133037 /* LaunchScreen.storyboard */,
-				996B84B0299990AA00133037 /* Assets.xcassets */,
 				996B84AD299990A900133037 /* Main.storyboard */,
 				996B84A7299990A900133037 /* AppDelegate.swift */,
 				99CF2AA929B0172800B4973F /* BoardController+Extensions.swift */,

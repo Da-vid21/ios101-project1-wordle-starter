@@ -15,7 +15,7 @@ class WordGenerator {
     static let possibleWords = ["ABCDE", "FIGHT", "SPACE", "PLANE", "QUEST", "WORLD", "FLASH", "HEART", "PRIZE", "STORM"]
   static func generateRandomWord() -> String? {
     // START YOUR CODE HERE
-    return possibleWords.first
+    return possibleWords.randomElement()
     // END YOUR CODE HERE
   }
 }
